@@ -1,0 +1,60 @@
+.Sidebar {
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    position: fixed;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border-right: 1px solid #aaaaaa;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column
+}
+
+.SidebarTop {
+    margin-top: 20px;
+    top: 0;
+}
+
+.SidebarBottom {
+    margin-bottom: 20px;
+    bottom: 0;
+}
+
+.SidebarItem {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.SidebarItem:hover {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: #dddddd;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.SidebarSVG {
+    width: 25%;
+    height: 100%;
+    margin-left: 15%;
+    fill: #000000;
+}
+
+.Sidebar p {
+    margin-left: 15px;
+}
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
